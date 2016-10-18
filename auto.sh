@@ -22,7 +22,7 @@ do
   echo "Start to install package:  ${package_index}"
   echo "====================================================================="
   # Auto accept license
-  #echo -e "y" | install_sdk "${package_index}"
+  echo -e "y" | install_sdk "${package_index}"
   echo
   echo
 done
